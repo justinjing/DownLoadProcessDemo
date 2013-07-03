@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED56ED51783FC78003F8B89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED56ED41783FC78003F8B89 /* UIKit.framework */; };
+		FED56ED71783FC78003F8B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED56ED61783FC78003F8B89 /* Foundation.framework */; };
+		FED56ED91783FC78003F8B89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED56ED81783FC78003F8B89 /* CoreGraphics.framework */; };
+		FED56EDF1783FC78003F8B89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED56EDD1783FC78003F8B89 /* InfoPlist.strings */; };
+		FED56EE11783FC78003F8B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED56EE01783FC78003F8B89 /* main.m */; };
+		FED56EE51783FC78003F8B89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FED56EE41783FC78003F8B89 /* AppDelegate.m */; };
+		FED56EE71783FC78003F8B89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FED56EE61783FC78003F8B89 /* Default.png */; };
+		FED56EE91783FC78003F8B89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED56EE81783FC78003F8B89 /* Default@2x.png */; };
+		FED56EEB1783FC78003F8B89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED56EEA1783FC78003F8B89 /* Default-568h@2x.png */; };
+		FED56EEE1783FC79003F8B89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED56EED1783FC79003F8B89 /* ViewController.m */; };
+		FED56EF11783FC79003F8B89 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED56EEF1783FC79003F8B89 /* ViewController.xib */; };
+		FED56F001783FEA9003F8B89 /* noise.png in Resources */ = {isa = PBXBuildFile; fileRef = FED56EFF1783FEA9003F8B89 /* noise.png */; };
+		FED56F0517840228003F8B89 /* YLBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FED56F0217840228003F8B89 /* YLBackgroundView.m */; };
+		FED56F0617840228003F8B89 /* YLProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FED56F0417840228003F8B89 /* YLProgressBar.m */; };
+		FED56F08178403B0003F8B89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED56F07178403B0003F8B89 /* QuartzCore.framework */; };
+		FED56F1B17840E1D003F8B89 /* download_file_all@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED56F1917840E1D003F8B89 /* download_file_all@2x.png */; };
+		FED56F1C17840E1D003F8B89 /* download_file_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED56F1A17840E1D003F8B89 /* download_file_icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FED56ED11783FC78003F8B89 /* DownLoadProcessBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownLoadProcessBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED56ED41783FC78003F8B89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FED56ED61783FC78003F8B89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FED56ED81783FC78003F8B89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FED56EDC1783FC78003F8B89 /* DownLoadProcessBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DownLoadProcessBar-Info.plist"; sourceTree = "<group>"; };
+		FED56EDE1783FC78003F8B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FED56EE01783FC78003F8B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED56EE21783FC78003F8B89 /* DownLoadProcessBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DownLoadProcessBar-Prefix.pch"; sourceTree = "<group>"; };
+		FED56EE31783FC78003F8B89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FED56EE41783FC78003F8B89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FED56EE61783FC78003F8B89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FED56EE81783FC78003F8B89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FED56EEA1783FC78003F8B89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FED56EEC1783FC79003F8B89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FED56EED1783FC79003F8B89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FED56EF01783FC79003F8B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FED56EFE1783FD0F003F8B89 /* ARCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacro.h; sourceTree = "<group>"; };
+		FED56EFF1783FEA9003F8B89 /* noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise.png; sourceTree = "<group>"; };
+		FED56F0117840228003F8B89 /* YLBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBackgroundView.h; sourceTree = "<group>"; };
+		FED56F0217840228003F8B89 /* YLBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBackgroundView.m; sourceTree = "<group>"; };
+		FED56F0317840228003F8B89 /* YLProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLProgressBar.h; sourceTree = "<group>"; };
+		FED56F0417840228003F8B89 /* YLProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLProgressBar.m; sourceTree = "<group>"; };
+		FED56F07178403B0003F8B89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FED56F1917840E1D003F8B89 /* download_file_all@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_file_all@2x.png"; sourceTree = "<group>"; };
+		FED56F1A17840E1D003F8B89 /* download_file_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_file_icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED56ECE1783FC78003F8B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED56F08178403B0003F8B89 /* QuartzCore.framework in Frameworks */,
+				FED56ED51783FC78003F8B89 /* UIKit.framework in Frameworks */,
+				FED56ED71783FC78003F8B89 /* Foundation.framework in Frameworks */,
+				FED56ED91783FC78003F8B89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED56EC81783FC78003F8B89 = {
+			isa = PBXGroup;
+			children = (
+				FED56EDA1783FC78003F8B89 /* DownLoadProcessBar */,
+				FED56ED31783FC78003F8B89 /* Frameworks */,
+				FED56ED21783FC78003F8B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED56ED21783FC78003F8B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED56ED11783FC78003F8B89 /* DownLoadProcessBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED56ED31783FC78003F8B89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED56F07178403B0003F8B89 /* QuartzCore.framework */,
+				FED56ED41783FC78003F8B89 /* UIKit.framework */,
+				FED56ED61783FC78003F8B89 /* Foundation.framework */,
+				FED56ED81783FC78003F8B89 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FED56EDA1783FC78003F8B89 /* DownLoadProcessBar */ = {
+			isa = PBXGroup;
+			children = (
+				FED56EE31783FC78003F8B89 /* AppDelegate.h */,
+				FED56EE41783FC78003F8B89 /* AppDelegate.m */,
+				FED56EEC1783FC79003F8B89 /* ViewController.h */,
+				FED56EED1783FC79003F8B89 /* ViewController.m */,
+				FED56EEF1783FC79003F8B89 /* ViewController.xib */,
+				FED56EF71783FCC2003F8B89 /* 进度条 */,
+				FED56EDB1783FC78003F8B89 /* Supporting Files */,
+			);
+			path = DownLoadProcessBar;
+			sourceTree = "<group>";
+		};
+		FED56EDB1783FC78003F8B89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED56F1917840E1D003F8B89 /* download_file_all@2x.png */,
+				FED56F1A17840E1D003F8B89 /* download_file_icon@2x.png */,
+				FED56EFF1783FEA9003F8B89 /* noise.png */,
+				FED56EDC1783FC78003F8B89 /* DownLoadProcessBar-Info.plist */,
+				FED56EDD1783FC78003F8B89 /* InfoPlist.strings */,
+				FED56EE01783FC78003F8B89 /* main.m */,
+				FED56EE21783FC78003F8B89 /* DownLoadProcessBar-Prefix.pch */,
+				FED56EE61783FC78003F8B89 /* Default.png */,
+				FED56EE81783FC78003F8B89 /* Default@2x.png */,
+				FED56EEA1783FC78003F8B89 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FED56EF71783FCC2003F8B89 /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				FED56EFE1783FD0F003F8B89 /* ARCMacro.h */,
+				FED56F0117840228003F8B89 /* YLBackgroundView.h */,
+				FED56F0217840228003F8B89 /* YLBackgroundView.m */,
+				FED56F0317840228003F8B89 /* YLProgressBar.h */,
+				FED56F0417840228003F8B89 /* YLProgressBar.m */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED56ED01783FC78003F8B89 /* DownLoadProcessBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED56EF41783FC79003F8B89 /* Build configuration list for PBXNativeTarget "DownLoadProcessBar" */;
+			buildPhases = (
+				FED56ECD1783FC78003F8B89 /* Sources */,
+				FED56ECE1783FC78003F8B89 /* Frameworks */,
+				FED56ECF1783FC78003F8B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownLoadProcessBar;
+			productName = DownLoadProcessBar;
+			productReference = FED56ED11783FC78003F8B89 /* DownLoadProcessBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED56EC91783FC78003F8B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "da zhan";
+			};
+			buildConfigurationList = FED56ECC1783FC78003F8B89 /* Build configuration list for PBXProject "DownLoadProcessBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FED56EC81783FC78003F8B89;
+			productRefGroup = FED56ED21783FC78003F8B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED56ED01783FC78003F8B89 /* DownLoadProcessBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED56ECF1783FC78003F8B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED56EDF1783FC78003F8B89 /* InfoPlist.strings in Resources */,
+				FED56EE71783FC78003F8B89 /* Default.png in Resources */,
+				FED56EE91783FC78003F8B89 /* Default@2x.png in Resources */,
+				FED56EEB1783FC78003F8B89 /* Default-568h@2x.png in Resources */,
+				FED56EF11783FC79003F8B89 /* ViewController.xib in Resources */,
+				FED56F001783FEA9003F8B89 /* noise.png in Resources */,
+				FED56F1B17840E1D003F8B89 /* download_file_all@2x.png in Resources */,
+				FED56F1C17840E1D003F8B89 /* download_file_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED56ECD1783FC78003F8B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED56EE11783FC78003F8B89 /* main.m in Sources */,
+				FED56EE51783FC78003F8B89 /* AppDelegate.m in Sources */,
+				FED56EEE1783FC79003F8B89 /* ViewController.m in Sources */,
+				FED56F0517840228003F8B89 /* YLBackgroundView.m in Sources */,
+				FED56F0617840228003F8B89 /* YLProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FED56EDD1783FC78003F8B89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED56EDE1783FC78003F8B89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FED56EEF1783FC79003F8B89 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED56EF01783FC79003F8B89 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED56EF21783FC79003F8B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FED56EF31783FC79003F8B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED56EF51783FC79003F8B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XU YUNHUI (VG6GB8F3RX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DownLoadProcessBar/DownLoadProcessBar-Prefix.pch";
+				INFOPLIST_FILE = "DownLoadProcessBar/DownLoadProcessBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E612AC3B-26F2-46F4-B185-BB890E04A20A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FED56EF61783FC79003F8B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XU YUNHUI (VG6GB8F3RX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DownLoadProcessBar/DownLoadProcessBar-Prefix.pch";
+				INFOPLIST_FILE = "DownLoadProcessBar/DownLoadProcessBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E612AC3B-26F2-46F4-B185-BB890E04A20A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED56ECC1783FC78003F8B89 /* Build configuration list for PBXProject "DownLoadProcessBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED56EF21783FC79003F8B89 /* Debug */,
+				FED56EF31783FC79003F8B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED56EF41783FC79003F8B89 /* Build configuration list for PBXNativeTarget "DownLoadProcessBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED56EF51783FC79003F8B89 /* Debug */,
+				FED56EF61783FC79003F8B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED56EC91783FC78003F8B89 /* Project object */;
+}
